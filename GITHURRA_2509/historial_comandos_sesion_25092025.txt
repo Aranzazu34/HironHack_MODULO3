@@ -1,0 +1,88 @@
+touch .gitignore
+ls
+git remote add origin [200~
+UsuariDESKTOP-V6BMKE0 MINGW64 /Desktop/Hironhack_Course_Web/MODULO 3/GIT_25092025 (main)
+$ touch .gitignore
+UsuariDESKTOP-V6BMKE0 MINGW64 /Desktop/Hironhack_Course_Web/MODULO 3/GIT_25092025 (main)
+$ ls
+README.md  archivo1.txt  index.html  rama.html
+UsuariDESKTOP-V6BMKE0 MINGW64 /Desktop/Hironhack_Course_Web/MODULO 3/GIT_25092025 (main)
+$ git remote add origin
+clear
+$ git remote add origin https://github.com/Aranzazu34/codigogit3
+git remote add origin https://github.com/Aranzazu34/codigogit3
+git remote -v
+git remote add origin https://github.com/Aranzazu34/codigogit3.git
+git remote -v
+git remote add origin3 https://github.com/Aranzazu34/codigogit3.git
+git remote add origin3 https://github.com/Aranzazu34/codigogit3
+git remote add origin https://github.com/Aranzazu34/codigogit3.git
+git init
+git add .
+git commit -m "Primer commit"
+ls
+git remote add origin https://github.com/Aranzazu34/codigogit3.git
+git branch
+git rm .gitignore
+git commit -m "Eliminar .gitignore completamente"
+git push
+git status
+ls
+git status
+git diff
+git diff index.html
+git s
+git show
+clear
+git add index.html
+git status
+clear
+git status
+git diff index.html
+git diff --staged
+clear
+git add . rama.html
+git status
+git diff --staged rama.html
+clear
+git branch
+git checkout master
+git branch feature
+git branch
+git ls-tree
+git checkout feature
+git branch
+git status
+clear
+ls
+git rm *.md
+git rm *.txt
+git status
+git commit -m "Eliminar archivos innecesarios"
+git push origin feature
+git checkout master
+git branch
+git merge feature
+git add .
+git commit
+clear
+git init
+cd ..
+cd GITHURRA_2509/
+git init
+git status
+git add .
+git commit -m "Añadir index.html a GITHURRA_2509 GIT"
+git remote add origin https://github.com/Aranzazu34/githurra
+git push -u master
+git status
+git branch
+git branch -M master
+git push -u origin master
+git status
+git add .
+git commit -m "actualizado index.html"
+git push
+git status
+git diff index.html
+history -a historial_comandos_sesion_25092025.txt
