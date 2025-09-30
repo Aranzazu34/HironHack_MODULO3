@@ -1,0 +1,30 @@
+{
+  "name": "jest-2",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --verbose --coverage --collectCoverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^4.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporter",
+        {
+          "pageTitle": "Test Report",
+          "outputPath": "test-report.html"
+        }
+      ]
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
