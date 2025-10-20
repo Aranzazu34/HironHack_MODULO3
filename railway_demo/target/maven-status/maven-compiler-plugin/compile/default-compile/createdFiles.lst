@@ -1,0 +1,4 @@
+com\example\railway_demo\repository\TareaRepository.class
+com\example\railway_demo\model\Tarea.class
+com\example\railway_demo\controller\TareaController.class
+com\example\railway_demo\RailwayDemoApplication.class
